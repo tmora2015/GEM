@@ -1,0 +1,44 @@
+
+
+/* las estrellas estén vacías */
+.estrellasValoracion {
+    background: url('estrellav.png') no-repeat;
+    float:      left;
+    height:     24px;
+    padding:    2px;
+    width:      24px;
+}
+
+.divicionValoracion {
+    border:     1px solid #CCC;
+    overflow:   visible;
+    padding:    10px;
+    position:   relative;
+    width:      140px;
+    height:     24px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.divicionValoracion:hover{
+    border:     1px solid #666;
+}
+
+/* estrellas de cantidad de votos */
+.estrellaValoracion {
+    background: url('estrellaLlena.png') no-repeat;
+}
+
+/* para votar sobre una estrella */
+.estrellaVotar {
+    background: url('estrellaHover.png') no-repeat;
+}
+
+.votosTotales {
+    background: #eaeaea;
+    top: 58px;
+    left: 0;
+    padding: 5px;
+    position:   absolute;  
+} 
+
